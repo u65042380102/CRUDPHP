@@ -1,0 +1,129 @@
+* {
+    font-family: Arial, sans-serif; 
+
+}
+
+
+.table {
+    border-collapse: collapse;
+    width: 50%;    
+    margin: 0 auto;
+}
+
+th{
+    background-color: aqua;
+}
+th, td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+.edit {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit:hover {
+    background-color: #45a049; 
+}
+.delete {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(198, 9, 9, 0.711);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete:hover {
+    background-color: red; 
+}
+
+.add {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.add:hover {
+    background-color: #45a049; 
+}
+
+.container {
+    margin: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center; 
+}
+
+.edit-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Input fields */
+.edit-form p {
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Submit button */
+.submit {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+.submit:hover {
+    background-color: #45a049;
+}
+
+.insert-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Input fields */
+.insert-form p {
+    margin: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    text-align: center; 
+    color: blue; 
+    font-family: Arial, sans-serif; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+}
